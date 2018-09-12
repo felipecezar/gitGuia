@@ -1,5 +1,5 @@
 # Passo a Passo 
-# Como usar o Git HUB
+## Como usar o Git HUB
 
 1. Criar uma pasta para o projeto
 2. Iniciar na pasta o git
