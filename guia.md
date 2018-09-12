@@ -1,6 +1,6 @@
-![]('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png')
+![logo git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png)
 
-# Passo a Passo<br>Como usar o Git HUB
+# Passo a Passo para enviar trabalhos pelo GitHub
 
 ## Iniciando
 
@@ -16,7 +16,7 @@
 10. Crie um link entre o repositório do github e sua pasta no pc `git remote add origin https://github.com/<seu_usuario_github>/<seu_repositorio>.git`
 11. Copiar ou criar os arquivos na pasta
 
-# Incluindo atualizações
+## Incluindo atualizações
 
 12. Adiciobar os arquivo no observador do git `git add .`
 13. Verificar se foram adicionados `git status`
