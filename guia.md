@@ -1,5 +1,3 @@
-![logo git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png){ width: 100px; }
-
 # Passo a Passo para enviar trabalhos pelo GitHub
 
 ## Configurando
