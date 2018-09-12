@@ -1,26 +1,27 @@
-![logo git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png)
+![logo git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png){ width: 100px; }
 
 # Passo a Passo para enviar trabalhos pelo GitHub
 
-## Iniciando
+## Configurando
 
-1. Criar uma pasta para o projeto
-2. Iniciar na pasta o git
-3. Abre a pasta em um terminal
-4. `git init`
-5. Configuando o git na pasta
-6. `git config user.name '<seu_nome>'`
-7. `git config user.email '<seu_email>'`
-8. Acesse o site https://github.com
-9. Crie um repositorio com o mesmo nome da pasta
-10. Crie um link entre o repositório do github e sua pasta no pc `git remote add origin https://github.com/<seu_usuario_github>/<seu_repositorio>.git`
-11. Copiar ou criar os arquivos na pasta
+1. Crie uma pasta para o projeto
+2. Inicie na pasta o git
+3. Abra a pasta em um terminal
+4. Execute o comando `git init` no terminal
+5. Configue seu nome e email para o git com os comandos no terminal
+    - `git config user.name '<seu_nome>'`
+    - `git config user.email '<seu_email>'`
+6. Acesse o site https://github.com
+7. Crie um repositorio com o mesmo nome da pasta no github
+8. Crie um link entre o repositório do github e sua pasta, execultando no terminal o comando
+    - `git remote add origin https://github.com/<seu_usuario_github>/<seu_repositorio>.git`
 
 ## Incluindo atualizações
 
-12. Adiciobar os arquivo no observador do git `git add .`
-13. Verificar se foram adicionados `git status`
-14. Confirmar as mudanças `git commit -m ' Mensagem de confirmação'`
-15. Enviar as mundaçs para o servidor github `git push -u origin master`
+9. Copie ou crie os arquivos dos exercícios em sua pasta
+12. Adicione os arquivo para o git observar as mudanças com o comando `git add .` no terminal
+13. Verificque se os arquvos foram adicionados com o comando `git status` no terminal
+14. Confire as mudanças com o comando `git commit -m ' Mensagem de confirmação'` no terminal
+15. Envie as mundaças para o servidor do github executando no terminal o comando `git push -u origin master`
 
 
